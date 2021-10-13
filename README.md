@@ -10,3 +10,19 @@
 - 발표 시간 : 개인당 20분씩 총 80분 진행, 발표후 질문 및 정리 시간
 - 공통 Tool : 노션(공통) 
 - 개인 Tool : IDE, Gighub, naver blog(개인)
+
+
+## Chapter01. 객체지향 모델링
+### 학습 목표
+- 모델링 이해하기
+- UML 다이어그램 이해하기
+- 클래스 다이어그램 이해하기
+
+### Summary
+현지 블로그 : https://blog.naver.com/ohj4312/222536361518
+
+### Source Code
+[코드랑 같이 설명보기](https://github.com/ohj4312/Design-pattern/tree/master/src/ch01_modeling)
+
+## Chapter02. 객체 지향 원리
+### 학습 목표

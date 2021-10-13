@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="ch02 코드2-1,코드2-2 구현, 실행">
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch01_modeling/check1/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch01_modeling/check2/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch01_modeling/check2/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Audi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/BMW.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Benz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Code2_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Code2_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_2.java" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="file 구조 정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634156225683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ch02 코드2-1,코드2-2 구현, 실행">
+      <created>1634158836457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634158836457</updated>
+    </task>
+    <task id="LOCAL-00003" summary="file 구조 정리">
+      <created>1634158912340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634158912340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +120,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="ch01 체크포인트 풀이 1,2" />
     <MESSAGE value="ch02 코드2-1,코드2-2 구현, 실행" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch02 코드2-1,코드2-2 구현, 실행" />
+    <MESSAGE value="file 구조 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="file 구조 정리" />
   </component>
 </project>
