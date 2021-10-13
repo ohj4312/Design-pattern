@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="check push">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_statePattern/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="ch02 코드2-1,코드2-2 구현, 실행">
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch01_modeling/check1/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch01_modeling/check2/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch01_modeling/check2/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Audi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/BMW.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Benz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Code2_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/ab/exam1/Code2_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +43,43 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ch01_modeling.check2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch02_oop.ab.exam1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Code2_1">
+    <configuration name="Code2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_1" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02_oop.ab.exam1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_2" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02_oop.ab.exam1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Code2_1" />
+        <item itemvalue="Application.Code2_2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634154485159</updated>
     </task>
+    <task id="LOCAL-00001" summary="ch01 체크포인트 풀이 1,2">
+      <created>1634156225683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634156225683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,9 +110,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="ch01 체크포인트 풀이 1,2" />
+    <MESSAGE value="ch02 코드2-1,코드2-2 구현, 실행" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch02 코드2-1,코드2-2 구현, 실행" />
   </component>
 </project>
