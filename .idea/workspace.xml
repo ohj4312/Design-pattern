@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="srp 적용 후 student 클래스 변화">
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/ocp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/ocp/StudentDao.java" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="ocp를 적용 전 exam1">
+      <change afterPath="$PROJECT_DIR$/src/ch03_solid/ocp/exam1/FuelTankMonitoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_solid/ocp/exam1/FuelTankMonitoring1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_solid/ocp/exam1/fuelTankMonitoringWith1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634307998210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ocp를 적용한 설계">
+      <created>1634308226630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634308226630</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +156,8 @@
     <MESSAGE value="reademe update" />
     <MESSAGE value="srp 적용 전 student 클래스" />
     <MESSAGE value="srp 적용 후 student 클래스 변화" />
-    <option name="LAST_COMMIT_MESSAGE" value="srp 적용 후 student 클래스 변화" />
+    <MESSAGE value="ocp를 적용한 설계" />
+    <MESSAGE value="ocp를 적용 전 exam1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ocp를 적용 전 exam1" />
   </component>
 </project>
