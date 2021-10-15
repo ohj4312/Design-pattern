@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="file 구조 정리">
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="reademe update">
+      <change afterPath="$PROJECT_DIR$/src/ch03_solid/srp/exam1/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_solid/srp/exam1/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634158912340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="reademe update">
+      <created>1634159197750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634159197750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +129,7 @@
     <MESSAGE value="ch01 체크포인트 풀이 1,2" />
     <MESSAGE value="ch02 코드2-1,코드2-2 구현, 실행" />
     <MESSAGE value="file 구조 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="file 구조 정리" />
+    <MESSAGE value="reademe update" />
+    <option name="LAST_COMMIT_MESSAGE" value="reademe update" />
   </component>
 </project>
