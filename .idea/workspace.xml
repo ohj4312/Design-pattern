@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="dip를 적용한 의존성 주입 설계">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/dip/exam2/Kid1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/dip/exam2/Kid2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/dip/exam2/Lego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/dip/exam2/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/dip/exam2/ToyTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03_solid/dip/exam2/ToyTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="isp 적용 설계">
+      <change afterPath="$PROJECT_DIR$/src/ch03_solid/isp/복합기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch03_solid/isp/exam1/복합기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03_solid/isp/exam1/복합기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +33,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch03_solid.isp.exam1" />
       <recent name="ch03_solid.ocp.exam2" />
       <recent name="ch01_modeling.check2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch03_solid.isp.exam1" />
       <recent name="ch03_solid.dip.exam2" />
       <recent name="ch03_solid.lsp.exam2" />
       <recent name="ch03_solid.ocp" />
@@ -190,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634321928679</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dip를 위배한 경우">
+      <created>1634322149060</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1634322149060</updated>
+    </task>
+    <task id="LOCAL-00016" summary="isp 적용 설계">
+      <created>1634322336007</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634322336007</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +231,8 @@
     <MESSAGE value="lsp를 적용 후 exam1" />
     <MESSAGE value="lsp를 위배된 예 exam2" />
     <MESSAGE value="dip를 적용한 의존성 주입 설계" />
-    <option name="LAST_COMMIT_MESSAGE" value="dip를 적용한 의존성 주입 설계" />
+    <MESSAGE value="dip를 위배한 경우" />
+    <MESSAGE value="isp 적용 설계" />
+    <option name="LAST_COMMIT_MESSAGE" value="isp 적용 설계" />
   </component>
 </project>
