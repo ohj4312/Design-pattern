@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="추상화 설명 추가">
-      <change afterPath="$PROJECT_DIR$/src/ch02_oop/encapsulation/exam1/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch02_oop/encapsulation/exam1/StackClient.java" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="캡슐화를 적용하지 않은 stack 구현">
+      <change afterPath="$PROJECT_DIR$/src/ch02_oop/encapsulation/exam2/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch02_oop/encapsulation/exam2/StackClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_oop/ab/exam1/Code2_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="ch02_oop.ab.exam1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackClient">
+  <component name="RunManager" selected="Application.StackClient (1)">
     <configuration name="Code2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_1" />
       <module name="DesignPattern" />
@@ -83,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02_oop.encapsulation.exam2.StackClient" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02_oop.encapsulation.exam2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch02_oop.encapsulation.exam1.StackClient" />
       <module name="DesignPattern" />
@@ -98,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackClient (1)" />
         <item itemvalue="Application.StackClient" />
         <item itemvalue="Application.Code2_2" />
         <item itemvalue="Application.Code2_1" />
@@ -232,7 +244,28 @@
       <option name="project" value="LOCAL" />
       <updated>1634322465942</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="추상화 설명 추가">
+      <created>1634479663527</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634479663527</updated>
+    </task>
+    <task id="LOCAL-00019" summary="out 폴더 파일 업로드">
+      <created>1634479712515</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1634479712515</updated>
+    </task>
+    <task id="LOCAL-00020" summary="캡슐화를 적용하지 않은 stack 구현">
+      <created>1634479732479</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1634479732479</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +300,8 @@
     <MESSAGE value="isp 적용 설계" />
     <MESSAGE value="isp 위배된 설계" />
     <MESSAGE value="추상화 설명 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="추상화 설명 추가" />
+    <MESSAGE value="out 폴더 파일 업로드" />
+    <MESSAGE value="캡슐화를 적용하지 않은 stack 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="캡슐화를 적용하지 않은 stack 구현" />
   </component>
 </project>
