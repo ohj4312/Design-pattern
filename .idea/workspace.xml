@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="캡슐화를 적용한 stack 구현">
-      <change afterPath="$PROJECT_DIR$/src/ch02_oop/generalization/exam1/FruitBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="일반화 관계가 적용되지 않았을 때 불편사항">
+      <change afterPath="$PROJECT_DIR$/src/ch02_oop/generalization/exam2/FruitBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +45,16 @@
       <recent name="ch01_modeling.check2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch02_oop.generalization.exam2" />
       <recent name="ch02_oop.encapsulation.exam2" />
       <recent name="ch03_solid.isp.exam1" />
       <recent name="ch03_solid.dip.exam2" />
       <recent name="ch03_solid.lsp.exam2" />
-      <recent name="ch03_solid.ocp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FruitBox">
-    <configuration name="Code2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_1" />
+  <component name="RunManager" selected="Application.FruitBox (1)">
+    <configuration name="Code2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_2" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
@@ -67,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_2" />
+    <configuration name="FruitBox (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02_oop.generalization.exam2.FruitBox" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02_oop.ab.exam1.*" />
+          <option name="PATTERN" value="ch02_oop.generalization.exam2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FruitBox (1)" />
         <item itemvalue="Application.FruitBox" />
         <item itemvalue="Application.StackClient (1)" />
         <item itemvalue="Application.StackClient" />
         <item itemvalue="Application.Code2_2" />
-        <item itemvalue="Application.Code2_1" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634480194966</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="일반화 관계가 적용되지 않았을 때 불편사항">
+      <created>1634481594569</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1634481594569</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +329,7 @@
     <MESSAGE value="out 폴더 파일 업로드" />
     <MESSAGE value="캡슐화를 적용하지 않은 stack 구현" />
     <MESSAGE value="캡슐화를 적용한 stack 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="캡슐화를 적용한 stack 구현" />
+    <MESSAGE value="일반화 관계가 적용되지 않았을 때 불편사항" />
+    <option name="LAST_COMMIT_MESSAGE" value="일반화 관계가 적용되지 않았을 때 불편사항" />
   </component>
 </project>
