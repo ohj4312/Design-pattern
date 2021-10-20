@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="일반화 관계가 적용되지 않았을 때 불편사항">
-      <change afterPath="$PROJECT_DIR$/src/ch02_oop/generalization/exam2/FruitBox.java" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화">
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/exam1/ScoreRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/BatteryLevelDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/LowBatteryWarning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/BatteryLevelDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/LowBatteryWarning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/FruitBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/FruitBox.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +52,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ch09_observer/practice1-4" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch09_observer.practice1" />
       <recent name="ch03_solid.isp.exam1" />
       <recent name="ch03_solid.ocp.exam2" />
       <recent name="ch01_modeling.check2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Summary\DesignPattern\src\ch09_observer\practice1-4" />
+      <recent name="C:\Summary\DesignPattern\src\ch09_observer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch02_oop.generalization.exam2" />
@@ -52,13 +73,26 @@
       <recent name="ch03_solid.lsp.exam2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FruitBox (1)">
-    <configuration name="Code2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02_oop.ab.exam1.Code2_2" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09_observer.practice1_8.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02_oop.ab.exam1.*" />
+          <option name="PATTERN" value="ch09_observer.practice1_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09_observer.practice1.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch09_observer.practice1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02_oop.encapsulation.exam1.StackClient" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch02_oop.encapsulation.exam1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.FruitBox (1)" />
         <item itemvalue="Application.FruitBox" />
         <item itemvalue="Application.StackClient (1)" />
-        <item itemvalue="Application.StackClient" />
-        <item itemvalue="Application.Code2_2" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634481594569</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화">
+      <created>1634482371938</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1634482371938</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +358,7 @@
     <MESSAGE value="캡슐화를 적용하지 않은 stack 구현" />
     <MESSAGE value="캡슐화를 적용한 stack 구현" />
     <MESSAGE value="일반화 관계가 적용되지 않았을 때 불편사항" />
-    <option name="LAST_COMMIT_MESSAGE" value="일반화 관계가 적용되지 않았을 때 불편사항" />
+    <MESSAGE value="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화" />
+    <option name="LAST_COMMIT_MESSAGE" value="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화" />
   </component>
 </project>
