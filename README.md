@@ -26,3 +26,17 @@
 
 ## Chapter02. 객체 지향 원리
 ### 학습 목표
+
+
+## Chapter03. SOLID 원칙
+### 학습 목표
+- SOLID 개념 이해하기
+- SRP 이해하기
+- OCP 이해하기
+- LSP 이해하기
+- ISP 이해하기
+- DIP 이해하기
+
+
+### Summary
+현지 블로그 : https://blog.naver.com/ohj4312/222539917159
