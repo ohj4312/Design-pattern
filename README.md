@@ -43,11 +43,20 @@
 현지 블로그 : https://blog.naver.com/ohj4312/222536361518
 
 ### Source Code
-[코드랑 같이 설명보기](https://github.com/ohj4312/Design-pattern/tree/master/src/ch01_modeling)
+[코드랑 같이 설명보기](https://github.com/ohj4312/Design-pattern/tree/master/src/ch02_oop)
 
 ## Chapter02. 객체 지향 원리
 ### 학습 목표
+- 추상화 이해하기
+- 캡슐화 이해하기
+- 일반화(상속) 관계 이해하기
+- 다형성 이해하기
 
+### Summary
+현지 블로그 : https://blog.naver.com/ohj4312/222538393168
+
+### Source Code
+[코드랑 같이 설명보기](https://github.com/ohj4312/Design-pattern/tree/master/src/ch01_modeling)
 
 ## Chapter03. SOLID 원칙
 ### 학습 목표
