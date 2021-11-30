@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화">
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/exam1/ScoreRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/Battery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/BatteryLevelDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/LowBatteryWarning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Battery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/BatteryLevelDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/LowBatteryWarning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_observer/practice1_8/Subject.java" afterDir="false" />
+    <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="observer 패턴 bin 파일">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Banana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/FruitBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/ch02_oop/generalization/exam2/FruitBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_observer/practice1/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/Battery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +305,35 @@
       <option name="project" value="LOCAL" />
       <updated>1634482371938</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="observer 패턴 연습문제 1-1">
+      <created>1634726705271</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1634726705271</updated>
+    </task>
+    <task id="LOCAL-00025" summary="observer 패턴 연습문제 1-8">
+      <created>1634726726927</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1634726726927</updated>
+    </task>
+    <task id="LOCAL-00026" summary="일반화 문제 2">
+      <created>1634726782942</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1634726782942</updated>
+    </task>
+    <task id="LOCAL-00027" summary="observer 패턴 bin 파일">
+      <created>1634726803812</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1634726803812</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,9 +349,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="ch01 체크포인트 풀이 1,2" />
-    <MESSAGE value="ch02 코드2-1,코드2-2 구현, 실행" />
     <MESSAGE value="file 구조 정리" />
     <MESSAGE value="reademe update" />
     <MESSAGE value="srp 적용 전 student 클래스" />
@@ -359,6 +370,10 @@
     <MESSAGE value="캡슐화를 적용한 stack 구현" />
     <MESSAGE value="일반화 관계가 적용되지 않았을 때 불편사항" />
     <MESSAGE value="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화" />
-    <option name="LAST_COMMIT_MESSAGE" value="일반화 관계 적용, 자식 클래스들을 캡슐화하는 일반화" />
+    <MESSAGE value="observer 패턴 연습문제 1-1" />
+    <MESSAGE value="observer 패턴 연습문제 1-8" />
+    <MESSAGE value="일반화 문제 2" />
+    <MESSAGE value="observer 패턴 bin 파일" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer 패턴 bin 파일" />
   </component>
 </project>
