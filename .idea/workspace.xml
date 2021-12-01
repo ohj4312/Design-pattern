@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b166a3f3-8396-4f75-8b7a-d12478121983" name="Changes" comment="observer 패턴 bin 파일">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_observer/practice1/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_observer/practice1/Battery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README/ch03_SOLID" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
